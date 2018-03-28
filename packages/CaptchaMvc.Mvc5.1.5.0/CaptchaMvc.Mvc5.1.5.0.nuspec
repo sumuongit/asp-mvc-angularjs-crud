@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>CaptchaMvc.Mvc5</id>
+    <version>1.5.0</version>
+    <title>CaptchaMvc.Mvc5</title>
+    <authors>Vyacheslav Volkov</authors>
+    <owners>Vyacheslav Volkov</owners>
+    <licenseUrl>http://captchamvc.codeplex.com/license</licenseUrl>
+    <projectUrl>http://captchamvc.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>CaptchaMvc will implement your web MVC applications easier and more reliable protection.
+Features:
+You can easily change or extend the current implementation of the captcha. 
+By default there are two types of captcha, plain and mathematical.
+Supports MVC 3, MVC 4, MVC 5.
+Supports for storing captcha in the session or cookie.
+Supports the "intelligent" captcha.</description>
+    <summary />
+    <language>en-US</language>
+    <tags>captcha asp.net mvc mvc5 C#</tags>
+  </metadata>
+</package>

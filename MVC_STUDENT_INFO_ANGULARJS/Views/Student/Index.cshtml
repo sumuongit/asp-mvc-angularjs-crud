@@ -1,0 +1,96 @@
+﻿@{
+    ViewBag.Title = "Student Information";
+}
+
+<div class="container" ng-controller="myAngularController">
+    <div class="container">
+        <h2>Student Information</h2>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" ng-click="ClearForm();">Add New Student</button>
+        <p></p>
+        <div><a href="@Url.Action("StudentReport")"> Download Student Information Report as PDF </a></div>  
+        <p></p>
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Student ID</th>
+                    <th>Name</th>
+                    <th>Class</th>
+                    <th>Age</th>
+                    <th>Present Address</th>
+                    <th>Permanent Address</th>
+                    <th>Attendance</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                <tr ng-repeat="st in Students">
+                    <td>{{st.StudentID}}</td>
+                    <td>{{st.Name}}</td>
+                    <td>{{st.Class}}</td>
+                    <td>{{st.Age}}</td>
+                    <td>{{st.PresentAddress}}</td>
+                    <td>{{st.PermanentAddress}}</td>
+                    <td>{{st.Attendance == 1 ? "PRESENT" : "ABSENT"}}</td>
+                    <td>
+                        <input type="button" class="btn btn-default" value="Edit" ng-click="GetAnStudent(st)" />
+                    </td>
+                    <td>
+                        <input type="button" class="btn btn-default" value="Delete" ng-click="DeleteStudent(st)" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">x</button>
+                    <h4 class="modal-title" id="modalTitle">Student Information</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="lblStId">Student ID</label>
+                            <input type="text" class="form-control" id="studentId" ng-model="studentID" placeholder="Student ID" disabled />
+                        </div>
+                        <div class="form-group">
+                            <label for="lblName">Name</label>
+                            <input type="text" class="form-control" id="name" ng-model="name" placeholder="Name" />
+                        </div>
+                        <div class="form-group">
+                            <label for="lblClass">Class</label>
+                            <input type="text" class="form-control" id="class" ng-model="class" placeholder="Class" />
+                        </div>
+                        <div class="form-group">
+                            <label for="lblAge">Age</label>
+                            <input type="number" class="form-control" id="age" ng-model="age" placeholder="Age" />
+                        </div>
+                        <div class="form-group">
+                            <label for="lblePresentAddress">Present Address</label>
+                            <input type="text" class="form-control" id="presentAddress" ng-model="presentAddress" placeholder="Present Address" />
+                        </div>
+                        <div class="form-group">
+                            <label for="lblePermanentAddress">Permanent Address</label>
+                            <input type="text" class="form-control" id="permanentAddress" ng-model="permanentAddress" placeholder="Permanent Address" />
+                        </div>
+                        <div class="form-group">
+                            <label for="lbleCountry">Attendance</label>
+                            <input type="checkbox" id="chkAttendance" ng-model="attendance.value" ng-checked="attendance.value">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="btnAdd" ng-click="InsertStudent();">Save</button>
+                    <button type="button" class="btn btn-primary" id="btnUpdate" style="display:none" ng-click="UpdateStudent();">Update</button>
+                    <button type="button" class="btn btn-default" id="btnClose" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
