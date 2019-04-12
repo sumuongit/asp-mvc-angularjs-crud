@@ -4,14 +4,13 @@
 * [Setup](#setup)
 
 ## General info
-A sample employee information system using ASP.NET Core MVC and ADO.NET with Visual Studio Code
+A sample student information system
 	
 ## Technologies
 This application is created with:
 * Visual Studio Version: 2013
 * C# 
 * ASP.NET MVC
-* ADO.NET
 * SQL Server 2012
 * AngularJS
 	
