@@ -10,14 +10,14 @@ A sample student information system
 This application is created with:
 * Visual Studio Version: 2013
 * C# 
-* ASP.NET MVC
+* ASP.NET MVC 5
 * SQL Server 2012
-* AngularJS
+* AngularJS 1.X
 	
 ## Setup
 To run this application, building the source locally using git:
 
 ```
-$ git clone https://github.com/sumuongit/asp-core-mvc-ado-vscode-application.git
+$ git clone https://github.com/sumuongit/asp-mvc-angularjs-application.git
 
 ```
