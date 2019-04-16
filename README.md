@@ -2,6 +2,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [License](#license)
 
 ## General info
 A sample student information system
@@ -21,3 +22,6 @@ To run this application, building the source locally using git:
 $ git clone https://github.com/sumuongit/asp-mvc-angularjs-application.git
 
 ```
+
+## License
+[MIT License](https://github.com/sumuongit/asp-mvc-angularjs-application/blob/master/LICENSE)
