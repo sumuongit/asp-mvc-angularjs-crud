@@ -2,12 +2,11 @@
     ViewBag.Title = "Student Information";
 }
 
-<div class="container" ng-controller="myAngularController">
+<div class="container" ng-controller="studentAngularController">
     <div class="container">
         <h2>Student Information</h2>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" ng-click="ClearForm();">Add New Student</button>
-        <p></p>
-        <div><a href="@Url.Action("StudentReport")"> Download Student Information Report as PDF </a></div>  
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentModal" ng-click="ClearForm();">Add New Student</button>
+        <p></p>        
         <p></p>
         <table class="table table-bordered table-hover">
             <thead>
@@ -18,9 +17,9 @@
                     <th>Age</th>
                     <th>Present Address</th>
                     <th>Permanent Address</th>
-                    <th>Attendance</th>
-                    <th>Edit</th>
-                    <th>Delete</th>
+                    <th>Attendance Status</th>
+                    <th></th>
+                    <th></th>
                 </tr>
             </thead>
             <tbody id="tbody">
@@ -33,17 +32,17 @@
                     <td>{{st.PermanentAddress}}</td>
                     <td>{{st.Attendance == 1 ? "PRESENT" : "ABSENT"}}</td>
                     <td>
-                        <input type="button" class="btn btn-default" value="Edit" ng-click="GetAnStudent(st)" />
+                        <input type="button" class="btn btn-success" value="Edit" ng-click="GetAnStudent(st)" />
                     </td>
                     <td>
-                        <input type="button" class="btn btn-default" value="Delete" ng-click="DeleteStudent(st)" />
+                        <input type="button" class="btn btn-danger" value="Delete" ng-click="DeleteStudent(st)" />
                     </td>
                 </tr>
             </tbody>
         </table>
     </div>
 
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="studentModal" tabindex="-1" role="dialog" aria-labelledby="studentModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
