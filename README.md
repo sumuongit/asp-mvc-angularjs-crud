@@ -6,6 +6,9 @@
 
 ## General info
 A sample student information system
+
+## Database Scripts
+[Database Scripts](https://github.com/sumuongit/asp-mvc-angularjs-application/tree/master/MVC_STUDENT_INFO_ANGULARJS/Database)
 	
 ## Technologies
 This application is created with:
