@@ -1,5 +1,6 @@
 ## Table of contents
 * [General info](#general-info)
+* [Database Scripts](#database-scripts)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [License](#license)
