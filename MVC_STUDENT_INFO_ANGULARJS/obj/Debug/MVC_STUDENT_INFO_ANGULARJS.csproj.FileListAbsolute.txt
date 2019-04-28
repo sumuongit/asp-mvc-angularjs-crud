@@ -113,3 +113,4 @@ E:\asp-mvc-angularjs-application\MVC_STUDENT_INFO_ANGULARJS\bin\Microsoft.Owin.S
 E:\asp-mvc-angularjs-application\MVC_STUDENT_INFO_ANGULARJS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 E:\asp-mvc-angularjs-application\MVC_STUDENT_INFO_ANGULARJS\obj\Debug\MVC_CRUD_ANGULARJS.dll
 E:\asp-mvc-angularjs-application\MVC_STUDENT_INFO_ANGULARJS\obj\Debug\MVC_CRUD_ANGULARJS.pdb
+E:\asp-mvc-angularjs-application\MVC_STUDENT_INFO_ANGULARJS\obj\Debug\MVC_STUDENT_INFO_ANGULARJS.csprojResolveAssemblyReference.cache
