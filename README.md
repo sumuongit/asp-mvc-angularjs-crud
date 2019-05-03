@@ -23,9 +23,9 @@ This application is created with:
 To run this application, building the source locally using git:
 
 ```
-$ git clone https://github.com/sumuongit/asp-mvc-angularjs-application.git
+$ git clone https://github.com/sumuongit/asp-mvc-angularjs-crud.git
 
 ```
 
 ## License
-[MIT License](https://github.com/sumuongit/asp-mvc-angularjs-application/blob/master/LICENSE)
+[MIT License](https://github.com/sumuongit/asp-mvc-angularjs-crud/blob/master/LICENSE)
