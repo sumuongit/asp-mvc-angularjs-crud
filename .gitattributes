@@ -1,5 +1,5 @@
 MVC_STUDENT_INFO_ANGULARJS/Content/* linguist-vendored
-MVC_STUDENT_INFO_ANGULARJS/Scripts/* linguist-vendored
+# MVC_STUDENT_INFO_ANGULARJS/Scripts/* linguist-vendored
 
 MVC_STUDENT_INFO_ANGULARJS/Scripts/AngularJS/studentApp.js linguist-vendored=false
 MVC_STUDENT_INFO_ANGULARJS/Scripts/AngularJS/studentController.js linguist-vendored=false
