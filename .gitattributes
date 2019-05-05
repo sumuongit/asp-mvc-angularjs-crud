@@ -21,6 +21,10 @@ MVC_STUDENT_INFO_ANGULARJS/Scripts/AngularJS/angular.min.js linguist-vendored
 
 *.sql linguist-detectable=true
 
+MVC_STUDENT_INFO_ANGULARJS/Scripts/AngularJS/studentApp.js linguist-detectable=true
+MVC_STUDENT_INFO_ANGULARJS/Scripts/AngularJS/studentController.js linguist-detectable=true
+MVC_STUDENT_INFO_ANGULARJS/Scripts/AngularJS/studentService.js linguist-detectable=true
+
 MVC_STUDENT_INFO_ANGULARJS/Scripts/AngularJS/studentApp.js linguist-vendored=false
 MVC_STUDENT_INFO_ANGULARJS/Scripts/AngularJS/studentController.js linguist-vendored=false
 MVC_STUDENT_INFO_ANGULARJS/Scripts/AngularJS/studentService.js linguist-vendored=false
