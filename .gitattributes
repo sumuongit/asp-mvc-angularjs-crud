@@ -1,36 +1,6 @@
 MVC_STUDENT_INFO_ANGULARJS/Content/* linguist-vendored
-# MVC_STUDENT_INFO_ANGULARJS/Scripts/* linguist-vendored
-
-MVC_STUDENT_INFO_ANGULARJS/Scripts/_references.js linguist-vendored
-MVC_STUDENT_INFO_ANGULARJS/Scripts/bootstrap.js linguist-vendored
-MVC_STUDENT_INFO_ANGULARJS/Scripts/bootstrap.min.js linguist-vendored
-MVC_STUDENT_INFO_ANGULARJS/Scripts/jquery-1.10.2.intellisense.js linguist-vendored
-MVC_STUDENT_INFO_ANGULARJS/Scripts/jquery-1.10.2.js linguist-vendored
-MVC_STUDENT_INFO_ANGULARJS/Scripts/jquery-1.10.2.min.js linguist-vendored
-MVC_STUDENT_INFO_ANGULARJS/Scripts/jquery-1.10.2.min.map linguist-vendored
-MVC_STUDENT_INFO_ANGULARJS/Scripts/jquery.validate-vsdoc.js linguist-vendored
-MVC_STUDENT_INFO_ANGULARJS/Scripts/jquery.validate.js linguist-vendored
-MVC_STUDENT_INFO_ANGULARJS/Scripts/jquery.validate.min.js linguist-vendored
-MVC_STUDENT_INFO_ANGULARJS/Scripts/jquery.validate.unobtrusive.js linguist-vendored
-MVC_STUDENT_INFO_ANGULARJS/Scripts/jquery.validate.unobtrusive.min.js linguist-vendored
-MVC_STUDENT_INFO_ANGULARJS/Scripts/modernizr-2.6.2.js linguist-vendored
-MVC_STUDENT_INFO_ANGULARJS/Scripts/respond.js linguist-vendored
-MVC_STUDENT_INFO_ANGULARJS/Scripts/respond.min.js linguist-vendored
-
-MVC_STUDENT_INFO_ANGULARJS/Scripts/AngularJS/angular.min.js linguist-vendored
 
 *.sql linguist-detectable=true
 
-MVC_STUDENT_INFO_ANGULARJS/Scripts/AngularJS/studentApp.js linguist-detectable=true
-MVC_STUDENT_INFO_ANGULARJS/Scripts/AngularJS/studentController.js linguist-detectable=true
-MVC_STUDENT_INFO_ANGULARJS/Scripts/AngularJS/studentService.js linguist-detectable=true
-
-MVC_STUDENT_INFO_ANGULARJS/Scripts/AngularJS/studentApp.js linguist-vendored=false
-MVC_STUDENT_INFO_ANGULARJS/Scripts/AngularJS/studentController.js linguist-vendored=false
-MVC_STUDENT_INFO_ANGULARJS/Scripts/AngularJS/studentService.js linguist-vendored=false
-
-MVC_STUDENT_INFO_ANGULARJS/Scripts/AngularJS/studentApp.js linguist-language=Angular
-MVC_STUDENT_INFO_ANGULARJS/Scripts/AngularJS/studentController.js linguist-language=Angular
-MVC_STUDENT_INFO_ANGULARJS/Scripts/AngularJS/studentService.js linguist-language=Anuglar
 
 
