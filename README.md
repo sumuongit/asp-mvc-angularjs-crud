@@ -1,11 +1,12 @@
-## Table of contents
-* [General info](#general-info)
+## Table of Contents
+* [General Info](#general-info)
 * [Database Scripts](#database-scripts)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Contributing](#contributing)
 * [License](#license)
 
-## General info
+## General Info
 A sample student information system
 
 ## Database Scripts
@@ -26,6 +27,13 @@ To run this application, building the source locally using git:
 $ git clone https://github.com/sumuongit/asp-mvc-angularjs-crud.git
 
 ```
+
+## Contributing
+* Fork the repository
+* Create a topic branch
+* Implement your feature or bug fix
+* Add, commit, and push your changes
+* Submit a pull request
 
 ## License
 [MIT License](https://github.com/sumuongit/asp-mvc-angularjs-crud/blob/master/LICENSE)
