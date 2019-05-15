@@ -2,11 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Configuration;
-using System.Linq;
-using System.Web;
 using System.Data.SqlClient;
 using System.Data;
-using System.IO;
 
 namespace MVC_STUDENT_INFO_ANGULARJS.Repository
 {

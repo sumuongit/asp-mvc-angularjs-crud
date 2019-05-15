@@ -1,15 +1,7 @@
 ﻿using MVC_STUDENT_INFO_ANGULARJS.Models;
 using MVC_STUDENT_INFO_ANGULARJS.Repository;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
-using CaptchaMvc.HtmlHelpers;
-using System.Data;
-using System.Data.SqlClient;
-using System.IO;
-using System.Configuration;
 
 namespace MVC_STUDENT_INFO_ANGULARJS.Controllers
 {
