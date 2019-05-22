@@ -181,9 +181,9 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\AngularJS\angular.min.js" />
-    <Content Include="Scripts\AngularJS\studentApp.js" />
-    <Content Include="Scripts\AngularJS\studentController.js" />
-    <Content Include="Scripts\AngularJS\studentService.js" />
+    <Content Include="CustomScripts\AngularJS\studentApp.js" />
+    <Content Include="CustomScripts\AngularJS\studentController.js" />
+    <Content Include="CustomScripts\AngularJS\studentService.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Database\StudentDatabase.bak" />
