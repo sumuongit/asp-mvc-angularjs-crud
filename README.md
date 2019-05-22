@@ -21,11 +21,13 @@ This application is created with:
 * AngularJS 1.X
 	
 ## Setup
-To run this application, building the source locally using git:
+To clone and run this repository you will need [Git](https://git-scm.com/) installed on your computer. From your command line:
 
 ```
+# Clone this repository
 $ git clone https://github.com/sumuongit/asp-mvc-angularjs-crud.git
-
+# Go into the repository
+$ cd asp-mvc-angularjs-crud
 ```
 
 ## Contributing
