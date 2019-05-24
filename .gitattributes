@@ -1,10 +1,13 @@
+# Exclude the following files or folders from language statistics
 MVC_STUDENT_INFO_ANGULARJS/Content/* linguist-vendored
 MVC_STUDENT_INFO_ANGULARJS/Scripts/* linguist-vendored
 
+# Include the following files or folders for language renaming
 MVC_STUDENT_INFO_ANGULARJS/Models/* linguist-language=ASP
 MVC_STUDENT_INFO_ANGULARJS/Views/* linguist-language=ASP
 MVC_STUDENT_INFO_ANGULARJS/Controllers/* linguist-language=ASP
 
+# Include the following files or folders for language detection
 *.sql linguist-detectable=true
 
 
