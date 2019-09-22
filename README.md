@@ -7,7 +7,7 @@
 * [License](#license)
 
 ## General Info
-A sample student information system
+A sample student information system with CRUD operation
 
 ## Database Scripts
 [Database Scripts](https://github.com/sumuongit/asp-mvc-angularjs-application/tree/master/MVC_STUDENT_INFO_ANGULARJS/Database)
